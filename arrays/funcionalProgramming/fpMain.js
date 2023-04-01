@@ -66,10 +66,13 @@ otrasFunc(utilitiesNpc, mynpc);
 
 //*Funcion de orden superior ejecuta funcion con parametros
 function npcSum(fn, num1, num2) {
-    console.log("************")
+    console.log("************");
     const res = fn(num1, num2);
-    return console.log("Los numeros sumados son:", res);
+    if (fn.name.includes("sum")) {
+        console.log("Los numeros sumados son:", res);
+    }
 }
+
 //asignacion de la funcion sum dentro de la variable suma_basica
 const suma_basica = sum;
 
@@ -77,6 +80,6 @@ npcSum(suma_basica, 5, 5);
 
 //*Utilidad de la funcion anonima, es mas directa al uso, ya que usa la utilidad en esa instancia directamente
 npcSum((num1, num2) => {
-    const res = num1 + num2;
-    console.log("La suma es:", res);
+    const res = num1 * num2;
+    console.log("La multiplicacion es:", res);
 }, 5, 5);
