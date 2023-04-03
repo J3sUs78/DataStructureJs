@@ -1,0 +1,13 @@
+{
+    "name": "Jesús",
+    "age": 22,
+    "sex": "male",
+    "skills": ["backend","frontend","Js"],
+    "Address":{
+        "street":"Calle del Perro",
+        "number":12,
+        "complement":"Piso 2",
+        "zipcode":"30010",
+        "city":"Madrid"
+    }
+} 
