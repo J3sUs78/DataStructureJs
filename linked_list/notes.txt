@@ -1,0 +1,20 @@
+Las linked list o listas enlazadas son estructuras de datos lineales que se utilizan para almacenar y manipular una colección de elementos. Cada elemento en una linked list se llama "nodo" y consta de dos partes: el valor del nodo y un puntero al siguiente nodo en la lista.
+
+A diferencia de los arrays, que se almacenan contiguamente en la memoria, los nodos de una linked list pueden estar dispersos por toda la memoria y se conectan mediante punteros. El primer nodo de la lista se llama "cabeza" y el último nodo se llama "cola". 
+Si un nodo no tiene un puntero al siguiente nodo, se considera el último nodo de la lista.
+
+Las linked list se pueden implementar en varios lenguajes de programación y se utilizan en una variedad de aplicaciones. Algunas de las ventajas de las linked list incluyen:
+
+Flexibilidad: la estructura de una linked list puede cambiar dinámicamente a medida que se agregan o eliminan elementos.
+Uso eficiente de memoria: las linked list pueden crecer o encogerse según sea necesario, lo que permite un uso eficiente de la memoria.
+Fácil inserción y eliminación: la inserción y eliminación de elementos en una linked list es rápida y sencilla, ya que solo implica la actualización de los punteros.
+Sin embargo, también hay algunas desventajas en el uso de las linked list, como:
+
+Acceso lento a los elementos: acceder a un elemento en una linked list puede requerir la iteración a través de varios nodos, lo que puede ser más lento que acceder a un elemento en un array.
+
+Uso adicional de memoria: debido a que cada nodo en una linked list tiene un puntero al siguiente nodo, puede haber un uso adicional de memoria en comparación con los arrays.
+
+Dificultad para acceder a elementos aleatorios: a diferencia de los arrays, las linked list no proporcionan un acceso rápido y aleatorio a los elementos en la lista.
+
+En resumen, las linked list son una estructura de datos útil y flexible que se utiliza para almacenar y manipular colecciones de elementos. Su uso es común en la programación y es importante entender sus ventajas y desventajas para decidir cuándo utilizarlas en comparación con otras estructuras de datos.
+
